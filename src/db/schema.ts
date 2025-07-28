@@ -52,7 +52,6 @@ export const verification = pgTable("verification", {
  });
 
 
-
  export const agents = pgTable("agents", {
     id: text("id")
         .primaryKey()
