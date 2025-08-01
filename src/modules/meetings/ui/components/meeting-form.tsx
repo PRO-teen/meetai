@@ -118,7 +118,7 @@ return(
     />
 
      <FormField
-      name="name"
+      name="agentId"
       control={form.control}
       render={({ field }) => (
         <FormItem>
@@ -168,7 +168,7 @@ return(
     variant="ghost"
     disabled={isPending}
     type="button"
-    onClick={() => onCancel()}
+    onClick={() => onCancel?.()}
   >
     Cancel
   </Button>
